@@ -13,7 +13,7 @@ function switchToLL(){
         choose[i].style.textDecoration = 'none'
     }
     choose[0].style.textDecoration = 'underline';
-    imgshow.innerHTML = `<img src="/Mysite/assets/images/self_img2.jpg" alt="">`
+    imgshow.innerHTML = `<img src="/assets/images/self_img2.jpg" alt="">`
 
 }
 function switchToST(){
@@ -24,7 +24,7 @@ function switchToST(){
         choose[i].style.textDecoration = 'none'
     }
     choose[1].style.textDecoration = 'underline';
-    imgshow.innerHTML = `<img src="/Mysite/assets/images/self_img3.jpg" alt="">`
+    imgshow.innerHTML = `<img src="/assets/images/self_img3.jpg" alt="">`
 }
 function switchToHT(){
     op1.style.display = 'none';
@@ -34,6 +34,6 @@ function switchToHT(){
         choose[i].style.textDecoration = 'none'
     }
     choose[2].style.textDecoration = 'underline';
-    imgshow.innerHTML = `<img src="/Mysite/assets/images/self_img4.jpg" alt="">`
+    imgshow.innerHTML = `<img src="/assets/images/self_img4.jpg" alt="">`
 }
 
