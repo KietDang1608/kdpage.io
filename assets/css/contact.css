@@ -1,0 +1,80 @@
+#c-container{
+    display: flex;
+}
+
+#c-lside{
+    margin: 4%;
+    margin-top: 8%;
+}
+#c-lside img{
+    width: 350px;
+    height: 100%;
+}
+#phone-img{
+    display: none;
+}
+#c-rside{
+    margin: 4%;
+    margin-top: 8%;
+    width: 1000px;
+}
+#c-title{
+    background-color: #557153;
+    color: #E6E5A3;
+    text-align: center;
+    font-size: 100px;
+}
+#link-contact{
+    font-size: 40px;
+}
+#link-contact button{
+    background-color: #F2E7D5;
+    font-size: 50px;
+    border: solid 0px;
+    margin-top: 5%;
+    transition: all 0.3s ease;
+    margin-left: 7%;
+}
+#link-contact button:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+@media only screen and (max-width: 768px){
+    #c-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    #phone-img{
+        display: block;
+        width: 100%;
+        margin: auto;
+    }
+    #pcimg{
+        display: none;
+    }
+    #c-rside{
+        margin: auto;
+        margin-top: 8%;
+        width: 100%;
+    }
+    #c-title{
+        background-color: #557153;
+        color: #E6E5A3;
+        text-align: center;
+        font-size: 50px;
+    }
+    #link-contact{
+        font-size: 25px;
+        margin: 5%;
+    }
+    #link-contact button{
+        background-color: #F2E7D5;
+        font-size: 50px;
+        border: solid 0px;
+        margin-top: 5%;
+        transition: all 0.3s ease;
+        margin-left: 20%;
+        margin-right: 10%;
+    }
+}

@@ -1,0 +1,30 @@
+
+
+#hp-container{
+    width: 100%;
+    height: fit-content;
+    background: #E6E5A3;
+}
+#hp-c-title{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background: #557153;
+}
+#hp-c-title h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    color: #E6E5A3;
+}
+#hp-c-content{
+    padding-left: 3%;
+    padding-bottom: 3%;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    #hp-c-title h1{
+      font-size: 30px;
+    }
+  }
