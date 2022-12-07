@@ -39,7 +39,7 @@
     cursor: pointer;
     transform: scale(1.5);
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 374px){
     #c-container{
         display: flex;
         flex-direction: column;
@@ -53,9 +53,12 @@
     #pcimg{
         display: none;
     }
+    #c-lside img{
+        width: 100%;
+    }
     #c-rside{
         margin: auto;
-        margin-top: 8%;
+        margin-top: 1%;
         width: 100%;
     }
     #c-title{
@@ -74,11 +77,11 @@
         border: solid 0px;
         margin-top: 5%;
         transition: all 0.3s ease;
-        margin-left: 20%;
+        margin-left: 15%;
         margin-right: 10%;
     }
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 429px) and (min-width: 375px){
     #c-container{
         display: flex;
         flex-direction: column;
@@ -115,5 +118,53 @@
         transition: all 0.3s ease;
         margin-left: 20%;
         margin-right: 10%;
+    }
+}
+@media only screen and (max-width: 801px) and (min-width: 767px){
+    #c-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 2%;
+        width: 100%;
+    }
+    #phone-img{
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    #c-lside img{
+        width: 100%;
+        height: 100%;
+    }
+    #pcimg{
+        display: none;
+    }
+    #c-rside{
+        margin: 4%;
+
+        margin-top: 2%;
+        width: 100%;
+    }
+    #c-title{
+        background-color: #557153;
+        color: #E6E5A3;
+        text-align: center;
+        font-size: 80px;
+        margin-right: 8%;
+    }
+    #link-contact{
+        font-size: 40px;
+    }
+    #link-contact button{
+        background-color: #F2E7D5;
+        font-size: 50px;
+        border: solid 0px;
+        margin-top: 5%;
+        transition: all 0.3s ease;
+        margin-left: 25%;
+    }
+    #link-contact button:hover{
+        cursor: pointer;
+        transform: scale(1.5);
     }
 }
