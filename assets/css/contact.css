@@ -77,8 +77,8 @@
         border: solid 0px;
         margin-top: 5%;
         transition: all 0.3s ease;
-        margin-left: 15%;
-        margin-right: 10%;
+        margin-left: 1%;
+        
     }
 }
 @media only screen and (max-width: 429px) and (min-width: 375px){
@@ -116,8 +116,7 @@
         border: solid 0px;
         margin-top: 5%;
         transition: all 0.3s ease;
-        margin-left: 20%;
-        margin-right: 10%;
+        margin-left: 1%;
     }
 }
 @media only screen and (max-width: 801px) and (min-width: 767px){

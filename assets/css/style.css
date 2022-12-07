@@ -63,7 +63,7 @@ body{
         padding: 0px;
     }
     #option button{
-        font-size: 10px;
+        font-size: 9px;
     }
   }
   @media only screen and (max-width: 429px) and (min-width: 375px) {
@@ -81,6 +81,6 @@ body{
         padding: 0px;
     }
     #option button{
-        font-size: 13px;
+        font-size: 12px;
     }
   }
